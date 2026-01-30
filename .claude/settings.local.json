@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(./gradlew.bat build:*)",
+      "Bash(set \"JAVA_HOME=C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr\")",
+      "Bash(gradlew.bat build:*)",
+      "Bash(cmd /c \"set JAVA_HOME=C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr && cd /d D:\\\\Source_Android\\\\HomeAssistantApp4 && gradlew.bat build\")",
+      "Bash(JAVA_HOME=\"/c/Program Files/Android/Android Studio/jbr\":*)",
+      "Bash(./gradlew build:*)",
+      "Bash(export JAVA_HOME=\"/c/Program Files/Android/Android Studio/jbr\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(gh auth:*)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
